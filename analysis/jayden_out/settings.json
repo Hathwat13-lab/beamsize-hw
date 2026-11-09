@@ -1,0 +1,31 @@
+{
+  "requested_frequency_THz": 0.58,
+  "actual_frequency_THz": 0.58,
+  "extrema_band_THz": [
+    1.5,
+    2.0
+  ],
+  "gold_floor_percent_of_non_dc_max": 5,
+  "window": "rectangular",
+  "scan_order": "raster",
+  "fft_bin_spacing_THz": 0.02,
+  "extrema_rule": "Global min/max over valid FFT bins in inclusive band; ties use lowest frequency",
+  "T_definition": "abs(FFT(sample) / FFT(Gold)) ** 2",
+  "valid_band_bins": 26,
+  "actual_valid_band_limits_THz": [
+    1.5,
+    2.0
+  ],
+  "min_at_valid_band_edge_pixels": 3464,
+  "max_at_valid_band_edge_pixels": 5813,
+  "sample_file": "C:\\Users\\cojyi\\Desktop\\beamsize hw\\chip1.tim.csv",
+  "gold_file": "C:\\Users\\cojyi\\Desktop\\beamsize hw\\ref.pulse.csv",
+  "shape_yx": [
+    151,
+    151
+  ],
+  "samples_per_pixel": 1000,
+  "dt_ps": 0.05,
+  "dx_as_recorded": 0.1,
+  "dy_as_recorded": 0.1
+}
